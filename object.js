@@ -14,3 +14,5 @@ let person3 = {
     age: 25,
     isStudent: true,
 };
+let myVariable = "Hello";
+let anotherVariable = 42;

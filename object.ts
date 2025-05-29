@@ -11,7 +11,7 @@ let person2: {name: string, age: number, isStudent: boolean} = {
 };
 
 // custom types
-type Person = {
+type Person = { 
   name: string;
   age: number;
   isStudent: boolean;
@@ -22,3 +22,8 @@ let person3: Person = {
   age: 25,
   isStudent: true,
 };
+
+
+type myStringOrNumber = string | number;
+let myVariable: myStringOrNumber = "Hello";
+let anotherVariable: myStringOrNumber = 42;
